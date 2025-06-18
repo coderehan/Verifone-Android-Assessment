@@ -16,7 +16,7 @@ All three API calls must be triggered **sequentially** and the combined result s
 ## My Understanding
 
 - The `DashboardUseCase` must handle all three data requests **in order**.
-- It is written using **Kotlin coroutines** to ensure efficient, non-blocking, and sequential calls.
+- It must be written using **Kotlin coroutines** to ensure efficient, non-blocking, and sequential calls.
 - UI should only render when all three responses are successful.
 - Any failure should result in immediate cancellation of the request chain.
 
