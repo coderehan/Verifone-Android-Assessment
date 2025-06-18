@@ -63,7 +63,7 @@ If any service call fails, the coroutine cancels remaining operations and return
 A clear UML sequence diagram is prepared showing the flow between:
 - **User → MainActivity → ViewModel → UseCase → Services**
 
-This diagram helps visualize the sequential behavior and cancellation logic clearly.
+This diagram helps visualize the sequential behavior.
 
 ![Image](https://github.com/user-attachments/assets/c5d280c1-499b-4276-8ca7-d89bdd81d253)
 ---
